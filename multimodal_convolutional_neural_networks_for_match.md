@@ -1,22 +1,19 @@
-# Multimodal Convolutional Neural Networks for Matching Image and Sentence
+####Multimodal Convolutional Neural Networks for Matching Image and Sentence
 
 
 [](ICCV2015.pdf)
 
-## Model
+#Task
+句子->图像 以及 图像->句子 双向检索 on the Flickr8K and Flickr30K datasets.
+
+#Model
 
 It consists of one image CNN encoding the **image content** and one matching CNN modeling **the joint representation of image and sentence**.
 
 The matching CNN composes **different semantic fragments** from words and learns the inter-modal relations between image and the composed fragments at different levels, thus fully exploit the matching relations between image and sentence. 
 
-## Task
-(m-CNNs) for matching image and sentence.
 
-bidirectional image and sentence retrieval on the Flickr8K and Flickr30K datasets.
-
-这一篇主要是进行 句子->图像 以及 图像->句子， 双向检索
-
-## Method
+#Method
 letting **image** and **the composed fragments of the sentence** meet and interact at different levels.
 
 使图像和句子的组合片段，在不同的level交互
@@ -24,7 +21,7 @@ letting **image** and **the composed fragments of the sentence** meet and intera
 ####特点
 local与global结合，在不同的level，单词、句子和图片会有所对应
 
-## m-CNN的组成
+#m-CNN的组成
 ####Image CNN
 
 generate the **image representation**
