@@ -34,10 +34,10 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
 
 * ##### word level matcing CNN: MatchCNN_wd
   
-  ![](QQ20160308-0@2x.png)
+  ![](images/QQ20160308-0@2x.png)
 
     这个结构非常特殊，因为我们注意到，对于文字的处理也是用CNN的，3个单词进行卷积，同时每个位置的卷积都把v_im加入
-    ![](QQ20160308-2@2x.png)
+    ![](images/QQ20160308-2@2x.png)
     K_rp 通常是为3
     
     限制最大长度，少的补0
