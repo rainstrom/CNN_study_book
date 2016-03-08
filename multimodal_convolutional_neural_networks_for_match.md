@@ -45,10 +45,12 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
   
   通过这样一个multimodal卷积，可以捕捉到word片段和图像vector之间的联系。
 
-* #####phrase level matcing CNN: MatchCNN_wd
+* #####phrase level matcing CNN: MatchCNN_phs(hort),phl(ong)
+  简单地来说就是先对文字（句子）conv-pool，得到的roughly phrase level的数据(composed representation)，这些数据更多地包含物体与物体之间的关系，然后进行与V_im进行交互，再得到结果。
+ 
+* #####sentence level matcing CNN: MatchCNN_st
 
-
-####Multilayerperceptron(MLP)
+####Multilayerperceptron(MLP) 
 ν_JR (joint representation) => final matching score between image and sentence
 
 
