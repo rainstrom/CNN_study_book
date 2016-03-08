@@ -23,7 +23,7 @@ letting **image** and **the composed fragments of the sentence** meet and intera
 ####特点
 local与global结合，在不同的level，单词、句子和图片会有所对应
 
-#m-CNN的组成
+#Model Detail (m-CNN的组成)
 ####Image CNN
 
 generate the **image representation**
