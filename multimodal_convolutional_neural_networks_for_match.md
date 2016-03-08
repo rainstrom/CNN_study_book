@@ -12,9 +12,9 @@
 
 * one matching CNN modeling **the joint representation of image and sentence**.
 
-  The matching CNN composes **different semantic fragments** from words and learns the inter-modal relations between image and the composed fragments at different levels => to fully exploit the matching relations between image and sentence. 
+  * The matching CNN composes **different semantic fragments** from words and learns the inter-modal relations between image and the composed fragments at different levels => to fully exploit the matching relations between image and sentence. 
   
-  letting **image** and **the composed fragments of the sentence** meet and interact at different levels. (**使图像和句子的组合片段，在不同的level交互**)
+  * letting **image** and **the composed fragments of the sentence** meet and interact at different levels. (**使图像和句子的组合片段，在不同的level交互**)
 
 #Method
 
