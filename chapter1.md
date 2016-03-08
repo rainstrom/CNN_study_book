@@ -1,6 +1,0 @@
-# Convolutional Neural Networks
-
-
-
-
-
