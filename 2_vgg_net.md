@@ -1,13 +1,13 @@
-VGG_net
+#VGG_net
 
 Karen Simonyan∗ & Andrew Zisserman+
 
 Visual Geometry Group, Department of Engineering Science, University of Oxford
 
-# Task
+## Task
 Computer vision: image recognition and so on
 
-# Model
+## Model
 **Deep Structure**
 
 
