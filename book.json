@@ -1,5 +1,4 @@
 {
-"plugins": [
-        "comscore"
-    ]
+  "plugins": ["comscore"]
+  
 }
