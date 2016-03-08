@@ -44,7 +44,11 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
 
 ![](QQ20160308-0@2x.png)
 
+![detail](QQ20160308-1@2x.png)
+
 这个结构非常特殊，因为我们注意到，对于文字的处理也是用CNN的，3个单词进行卷积，同时每个位置的卷积都把v_im加入
 
 ####Multilayerperceptron(MLP)
 ν_JR (joint representation) => final matching score between image and sentence
+
+
