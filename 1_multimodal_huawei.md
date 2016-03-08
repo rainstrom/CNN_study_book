@@ -1,11 +1,11 @@
-Multimodal Convolutional Neural Networks for Matching Image and Sentence
+#Multimodal Convolutional Neural Networks for Matching Image and Sentence
 
 [HUAWEI ICCV2015 multimodal](pdf/ICCV2015.pdf)
 
-#Task
+##Task
 句子->图像 以及 图像->句子 双向检索 on the Flickr8K and Flickr30K datasets.
 
-#Model
+##Model
 
 * one image CNN encoding the **image content** 
 
@@ -17,7 +17,7 @@ Multimodal Convolutional Neural Networks for Matching Image and Sentence
 
   * local与global结合，在不同的level，单词、句子和图片会有所对应
 
-#Model Detail (m-CNN的组成)
+##Model Detail (m-CNN的组成)
 ###1. Image CNN
 
 generate the **image representation** (a 4096-dimensional feature vector)
@@ -55,7 +55,7 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
 ν_JR (joint representation) => final matching score between image and sentence
 
 
-#Trick
+##Trick
 * 文字向量通过 skip-gram来进行表示
 * 训练，使用ranking loss function的对比取样，
 
