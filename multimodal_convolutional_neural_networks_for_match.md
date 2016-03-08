@@ -15,3 +15,36 @@ The matching CNN composes **different semantic fragments** from words and learns
 bidirectional image and sentence retrieval on the Flickr8K and Flickr30K datasets.
 
 这一篇主要是进行 句子->图像 以及 图像->句子， 双向检索
+
+## Method
+letting **image** and **the composed fragments of the sentence** meet and interact at different levels.
+
+使图像和句子的组合片段，在不同的level交互
+
+####特点
+local与global结合，在不同的level，单词、句子和图片会有所对应
+
+## m-CNN的组成
+####Image CNN
+
+generate the **image representation**
+
+returns a 4096-dimensional feature vector from the fully con- nected layer immediately before the last ReLU layer.
+
+a **d-dimension vector νim**.
+
+####Matching CNN
+input: the encoded image representation **V_im** and word representations **V_wd**
+
+produces: the joint representation **ν_JR** (learnt **joint representation** of image and sentence）
+
+过程是matching CNNs first compose different seman- tic fragments from the words and then learn the inter- modal structures and interactions between the image and composed fragments.
+
+#####word level matcing CNN: MatchCNN_wd
+
+![](QQ20160308-0@2x.png)
+
+这个结构非常特殊，因为我们注意到，对于文字的处理也是用CNN的，3个单词进行卷积，同时每个位置的卷积都把v_im加入
+
+####Multilayerperceptron(MLP)
+ν_JR (joint representation) => final matching score between image and sentence
