@@ -1,4 +1,7 @@
 {
-  "plugins": ["comscore"]
-  
+    "plugins": [
+        "comscore",
+        "tbfed-theme"
+    ],
+    "pluginsConfig": {}
 }
