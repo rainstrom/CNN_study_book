@@ -1,6 +1,6 @@
-# Multimodal Convolutional Neural Networks for Matching Image and Sentence
+# Convolutional Neural Networks
 
-(ICCV2015.pdf)
+
 
 
 
