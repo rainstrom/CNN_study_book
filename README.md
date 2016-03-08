@@ -1,3 +1,3 @@
-# My Awesome Book
+# CNNS
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This book will introduce many cnn structure for computer vision.
