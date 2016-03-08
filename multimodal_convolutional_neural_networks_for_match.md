@@ -23,14 +23,14 @@
 
 generate the **image representation** (a 4096-dimensional feature vector)
 
-then use W_im? => a **d-dimension vector νim**.
+then use W_im? => a **d-dimension vector ν_im**.
 
 ####Matching CNN
 input: the encoded image representation **V_im** and word representations **V_wd**
 
 produces: the joint representation **ν_JR** (learnt **joint representation** of image and sentence）
 
-过程是matching CNNs first compose different seman- tic fragments from the words and then learn the inter- modal structures and interactions between the image and composed fragments.
+过程是matching CNNs first compose different semantic fragments from the words and then learn the intermodal structures and interactions between the image and composed fragments.
 
 #####word level matcing CNN: MatchCNN_wd
 
