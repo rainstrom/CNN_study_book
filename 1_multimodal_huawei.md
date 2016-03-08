@@ -1,5 +1,4 @@
-####Multimodal Convolutional Neural Networks for Matching Image and Sentence
-
+Multimodal Convolutional Neural Networks for Matching Image and Sentence
 
 [HUAWEI ICCV2015 multimodal](pdf/ICCV2015.pdf)
 
