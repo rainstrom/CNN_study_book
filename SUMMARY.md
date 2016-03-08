@@ -1,5 +1,4 @@
 # Summary
-- [Table of Contents](SUMMARY.md)
 - [Simple Introduction](README.md)
 - [Multimodal Learning](c1_multimodal_learning.md)
   - [ICCV2015(huawei)](1_multimodal_huawei.md)
