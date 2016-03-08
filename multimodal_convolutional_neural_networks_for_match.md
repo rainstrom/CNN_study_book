@@ -56,5 +56,9 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
 ν_JR (joint representation) => final matching score between image and sentence
 
 
+#Trick
+* 文字向量通过 skip-gram来进行表示
+* 训练，使用ranking loss function的对比取样，
+
 
 
