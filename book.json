@@ -1,7 +1,3 @@
 {
-    "plugins": [
-        "comscore",
-        "addcssjs"
-    ],
-    "pluginsConfig": {}
+   
 }
