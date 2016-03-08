@@ -33,22 +33,26 @@ produces: the joint representation **ν_JR** (learnt **joint representation** of
 过程是matching CNNs first compose different semantic fragments from the words and then learn the intermodal structures and interactions between the image and composed fragments.
 
 * #####1) word level matcing CNN: MatchCNN_wd
-  *  ![](QQ20160308-0@2x.png)
-  * 这个结构非常特殊，因为我们注意到，对于文字的处理也是用CNN的，3个单词进行卷积，同时每个位置的卷积都把v_im加入
-  * ![](QQ20160308-2@2x.png)
-  
-  * K_rp 通常是为3
-  
-  * 限制最大长度，少的补0
-  
-  * 通过这样一个multimodal卷积，可以捕捉到word片段和图像vector之间的联系。
+  > ![](QQ20160308-0@2x.png)
+   >
+   >
+   >这个结构非常特殊，因为我们注意到，对于文字的处理也是用CNN的，3个单词进行卷积，同时每个位置的卷积都把v_im加入
+
+   >![](QQ20160308-2@2x.png)
+  >
+  >K_rp 通常是为3
+  >
+  >限制最大长度，少的补0
+  >
+  >通过这样一个multimodal卷积，可以捕捉到word片段和图像vector之间的联系。
 
 * #####2) phrase level matcing CNN: MatchCNN_phs(hort),phl(ong)
-  * 简单地来说就是先对文字（句子）conv-pool，得到的roughly phrase level的数据(composed representation)，这些数据更多地包含物体与物体之间的关系，然后进行与V_im进行交互，再得到结果。
+  > 简单地来说就是先对文字（句子）conv-pool，得到的roughly phrase level的数据(composed representation)，这些数据更多地包含物体与物体之间的关系，然后进行与V_im进行交互，再得到结果。
  
 * #####3) sentence level matcing CNN: MatchCNN_st
-  * 经过三次句子的conv-pool，得到V_st，V_JR=V_im||V_st，就不做卷积了，就这么直接连一块，直接过MLP
-  * MatchCNNst does not conduct matching, but transfer the representations of the two modalities to the later MLP for fusing and matching.
+  > 经过三次句子的conv-pool，得到V_st，V_JR=V_im||V_st，就不做卷积了，就这么直接连一块，直接过MLP
+  > 
+  >   MatchCNNst does not conduct matching, but transfer the representations of the two modalities to the later MLP for fusing and matching.
 
 ###3. Multilayerperceptron(MLP) 
 ν_JR (joint representation) => final matching score between image and sentence
