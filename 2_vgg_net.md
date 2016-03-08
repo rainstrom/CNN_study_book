@@ -1,4 +1,4 @@
-#VGG_net
+#VGG_net Oxford
 
 Karen Simonyan∗ & Andrew Zisserman+
 
