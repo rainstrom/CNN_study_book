@@ -1,6 +1,5 @@
 {
    "plugins": [
-  "comscore",
-  ],
+  "comscore"],
   "pluginsConfig": {}
 }
