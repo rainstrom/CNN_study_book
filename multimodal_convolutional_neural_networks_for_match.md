@@ -8,9 +8,11 @@
 
 #Model
 
-It consists of one image CNN encoding the **image content** and one matching CNN modeling **the joint representation of image and sentence**.
+* one image CNN encoding the **image content** 
 
-The matching CNN composes **different semantic fragments** from words and learns the inter-modal relations between image and the composed fragments at different levels, thus fully exploit the matching relations between image and sentence. 
+* one matching CNN modeling **the joint representation of image and sentence**.
+
+  The matching CNN composes **different semantic fragments** from words and learns the inter-modal relations between image and the composed fragments at different levels => to fully exploit the matching relations between image and sentence. 
 
 
 #Method
