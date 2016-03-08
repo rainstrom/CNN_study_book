@@ -23,7 +23,7 @@
 
 generate the **image representation** (a 4096-dimensional feature vector)
 
-a **d-dimension vector νim**.
+then use W_im? => a **d-dimension vector νim**.
 
 ####Matching CNN
 input: the encoded image representation **V_im** and word representations **V_wd**
