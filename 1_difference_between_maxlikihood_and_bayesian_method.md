@@ -5,11 +5,11 @@
 
 In order to calculate P(w_i|x), but P(x|w_i) is unknown.
 
-Goal is P(w_i|x,D)
+Goal is P(w_i|x,D)，x is the data to be classified, D is data.
 
 认为参数有一个先验概率分布，然后通过数据来计算参数的后验分布，然后求最大值点。
 P(μ|D)=
-
+![](QQ20160309-0@2x.png)
 
 ##max likelihood
 主要是模型参数认为是定值，然后求得所观察数据产生的概率最大的情况。
