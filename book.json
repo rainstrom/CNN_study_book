@@ -1,10 +1,9 @@
 {
  "plugins": [
-     "-mathjax", "rust-playpen","grivs","ga","duoshuo", "quizzes"
+     "-mathjax","grivs","ga","duoshuo", "quizzes"
     ],
 
     "pluginsConfig": {
-      "rust-playpen":{},
       "grvis":{},
        "ga": {
             "token": "UA-39088953-8"
