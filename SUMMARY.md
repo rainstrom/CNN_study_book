@@ -9,5 +9,5 @@
 * Pattern Recognition
    * [difference between maxlikihood and bayesian methods](1_difference_between_maxlikihood_and_bayesian_method.md)
 * Deva
-   * Bottom-up and top-down reasoning with convolutional latent-variable models
+   * [Bottom-up and top-down reasoning with convolutional latent-variable models](bottom-up_and_top-down_reasoning_with_convolutiona.md)
 
