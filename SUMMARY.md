@@ -5,7 +5,7 @@
    * [ICCV2015(huawei)](1_multimodal_huawei.md)
 * [CNNs](c2_cnns.md)
    * [VGG Net](2_vgg_net.md)
-   * BatchNormalization
+   * [BatchNormalization](bn.md)
 * Pattern Recognition
    * [difference between maxlikihood and bayesian methods](1_difference_between_maxlikihood_and_bayesian_method.md)
 
