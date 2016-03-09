@@ -4,10 +4,6 @@
     ],
 
     "pluginsConfig": {
-      "grvis":{},
-       "ga": {
-            "token": "UA-39088953-8"
-        },
         "duoshuo": {
             "short_name": "mytest",
             "theme": "default"
