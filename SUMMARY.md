@@ -6,5 +6,5 @@
 * [CNNs](c2_cnns.md)
    * [VGG Net](2_vgg_net.md)
 * Pattern Recognition
-   * difference between maxlikihood and bayesian methods
+   * [difference between maxlikihood and bayesian methods](1_difference_between_maxlikihood_and_bayesian_method.md)
 
