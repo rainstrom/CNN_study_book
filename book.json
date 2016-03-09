@@ -1,6 +1,6 @@
 {
  "plugins": [
-     "-mathjax", "quizzes"
+     "-mathjax", "quizzes", "duoshuo"
     ],
 
     "pluginsConfig": {
