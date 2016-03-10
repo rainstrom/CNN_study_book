@@ -27,6 +27,10 @@ The** skip-gram text modeling **architecture introduced by Mikolov et al
     efficiently learn semantically-meaningful floating point representations of terms from unannotated text.
     这个模型学习表示每个term为固定长度的embedding vector，通过预测在文档中邻接的terms。
     
+    具体原理：
+    同义词更倾向于出现在相似的上下文中，这个简单的目标函数驱使着这个model为语义相似的单词学习相同的embedding vectors
+
+
 
 
 
