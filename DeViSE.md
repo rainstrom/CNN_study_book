@@ -48,7 +48,7 @@ IMAGENET WINNING MODEL
 - loss function:
   
   We used a combination of dot-product similarity and hinge rank loss (similar to [20]) 
-  produce a higher dot-product similarity between the visual model output and the vector representation of the correct label than be- tween the visual output and **other randomly chosen text terms**.
+  produce a higher dot-product similarity between the visual model output and the vector representation of the correct label than between the visual output and **other randomly chosen text terms**.
   
   ![loss](QQ20160310-0@2x.png)
   
