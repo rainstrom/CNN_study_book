@@ -4,7 +4,7 @@
 
 Andrea Frome*, Greg S. Corrado*, Jonathon Shlens*, Samy Bengio Jeffrey Dean, Marc’Aurelio Ranzato, Tomas Mikolov
 
-##Task
+##Task(zero-shot learning)
 随着分类种类的增多，已标记的训练数据就不够了，所以利用其他类型的数据。使用visual data但是限制他们的预测。
 
 文中提出一个新的 deep visual-semantic embedding model 来 identify visual objects using both labeled image data as well as semantic information gleaned from unannotated text(使用labeled image data识别视觉物体,也用未分配的语义信息)
@@ -20,15 +20,6 @@ Imagine this very interesting problem cited here [1] where we look at creating a
 
 Typical practises include training on a **unlabeled corpora like word2vec on Wikipedia** to **get word representation** and learning a regression function between image features (CNN,SIFT features) and **dimensions of word2vec** and this is then applied to the test classes. 
 
-##Previous Model
-###WSABIE
-这个模型处理image feature和label到一个空间中
-
-only explored linear mappings from image features to the embedding space, and the available labels were only those provided in the image training set. It could thus not generalize to new classes.
-
-###Socher el al(zero shot learning)
-种类太少，模型不同
-
 ##Model
 
 
@@ -38,3 +29,12 @@ only explored linear mappings from image features to the embedding space, and th
 
 
 ##Trick
+
+##Previous Model
+###WSABIE
+这个模型处理image feature和label到一个空间中
+
+only explored linear mappings from image features to the embedding space, and the available labels were only those provided in the image training set. It could thus not generalize to new classes.
+
+###Socher el al(zero shot learning)
+种类太少，模型不同
