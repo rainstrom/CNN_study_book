@@ -36,8 +36,27 @@ Typical practises include training on a **unlabeled corpora like word2vec on Wik
 
    Our skip-gram model used a hierarchical softmax layer for predicting adjacent terms and was trained using a 20-word window with a single pass through the corpus. For more details and a pointer to open-source code, see [13].
 
+The embedding vectors learned by the language model are **unit normed** and used to map label terms into target vector representations.
 
 
+### Visual Model Pre-training
+IMAGENET WINNING MODEL
+
+### Deep Visual-Semantic Embedding Model
+视觉模型的softmax layer去掉了，训练来预测每个图片的那个feature vector，再用a projection layer （linear 4096->500/1000）and a similarity metric来进行。
+
+- loss function:
+  
+  We used a combination of dot-product similarity and hinge rank loss (similar to [20]) 
+  produce a higher dot-product similarity between the visual model output and the vector representation of the correct label than be- tween the visual output and **other randomly chosen text terms**.
+  
+  ![loss](QQ20160310-0@2x.png)
+  
+  - 其中的训练trick:
+    
+    随机化
+    - (1) restricting the set of false text terms to possible image labels，只用可能的image label的embedding vector进行训练
+    - (2) truncating the sum after the first margin-violating false term was encountered. The ⃗t vectors were constrained to be unit norm, and a fixed margin of 0.1 was used in all experiments3
 
 
 ##Model Detail (m-CNN的组成)
