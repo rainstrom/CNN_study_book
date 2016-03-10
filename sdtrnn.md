@@ -27,9 +27,15 @@ DT-RNN是用来学习vector representations for sentences based on their depende
   
 computes compositional(组合的) vector representations for phrases（短语） and sentences of variable length and syntactic type.（不同长度和句法结构的句子）
 
+Bag of Words对句子单词的顺序没有区分性，只是把word vector取平均？
+
+focuses more on recognizing actions and agents and has the po- tential to learn representations that are invariant to active-passive differences
+
 ##Model Detail
  unsupervised large text corpora to learn seman- tic word representations
 
+- we map each word to a d-dimensional vector
+  - initialize these word vectors with the unsupervised model of Huang et al. (2012) which can learn single word vector representations from both local and global contexts
 
 ##Trick
 
