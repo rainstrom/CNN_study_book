@@ -16,6 +16,8 @@ DT- RNN 使用了依赖树(dependency tree) to embed sentences into a vector spa
 
 主要的解决方案是单一模态的数据分别进行学习，最后map into a jointly learned multimodal embedding space.
 
+sentence映射使用idea(Recursive neural network)， our model computes compositional vector representations **inside dependency trees**
+
 ##Model(DT- RNN)
 
 
