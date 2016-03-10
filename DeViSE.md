@@ -23,7 +23,8 @@ Typical practises include training on a **unlabeled corpora like word2vec on Wik
 ##Model
 ###Language model pre-training
 ####Some introduction to language model
-
+- The skip-gram text modeling architecture introduced by Mikolov et al 
+- 
 
 
 ##Model Detail (m-CNN的组成)
