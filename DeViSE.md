@@ -13,7 +13,21 @@ N way分类会有一些问题，主要是他们之间本来互相有联系,但�
 
 DeViSE利用textual data来学习labels之间的语义关联，之后更明确地maps images into a rich semantic embedding space.结果正确率与1-N的分类器相当，但是减少了一些语义冲突或者说是错误。另外model利用了visual and semantic 相似性来正确预测了 object category labels for unseen categories，比如zero-shot classification
 
+##Zero-shot
+Zero shot learning in simple terms is a form of extending supervised learning to a setting of solving for example a **classification problem when not enough labeled examples are available for all classes**.
+
+Imagine this very interesting problem cited here [1] where we look at creating a classifier for certain held out classes **(say for CIFAR 100 you could hold 80 classes as train and 20 classes as test).** There is no intersection between the classes in train and test. 
+
+Typical practises include training on a unlabeled corpora like word2vec on Wikipedia to get word representation and learning a regression function between image features (CNN,SIFT features) and dimensions of word2vec and this is then applied to the test classes. 
+
+##Previous Model
+###WSABIE
+这个模型处理image feature和label到一个空间中
+
+only explored linear mappings from image features to the embedding space, and the available labels were only those provided in the image training set. It could thus not generalize to new classes.
+
 ##Model
+
 
 
 ##Model Detail (m-CNN的组成)
