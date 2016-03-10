@@ -11,7 +11,7 @@ Andrea Frome*, Greg S. Corrado*, Jonathon Shlens*, Samy Bengio Jeffrey Dean, Mar
 
 N way分类会有一些问题，主要是他们之间本来互相有联系,但是却强行把他们分成了互不关联的东西（artifical label），也就不能transfer语义信息。
 
-DeViSE利用textual data来学习labels之间的语义关联，之后更明确地maps images into a rich semantic embedding space.
+DeViSE利用textual data来学习labels之间的语义关联，之后更明确地maps images into a rich semantic embedding space.结果正确率与1-N的分类器相当，但是减少了一些语义冲突或者说是错误。
 
 ##Model
 
