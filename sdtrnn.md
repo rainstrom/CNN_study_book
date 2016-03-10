@@ -8,8 +8,14 @@ Stanford University, Computer Science Department, *Google Inc.
 ##Task
 组合语义来通过句子来找到和描述图片。
 
+通过RNN模型，对句子进行编码得到的sentence vector，并不能够准确的代表视觉基础的含义（visually grounded meaning）
 
-##Model
+DT- RNN 使用了依赖树(dependency tree) to embed sentences into a vector space in order to retrieve images。 DT-RNN更关注句子中的动作和主体focus on the action and agents in a sentence
+
+图片中的物体和物体之间有互相的联系，同样句子中的主体和主体之间也有联系。
+
+##Model(DT- RNN)
+
 
 
 ##Model Detail
