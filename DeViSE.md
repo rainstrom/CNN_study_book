@@ -60,11 +60,8 @@ IMAGENET WINNING MODEL
       - 不明白。。。
 
 
-##Model Detail (m-CNN的组成)
-
-
-
-##Trick
+##Model Detail
+![structure](QQ20160310-1@2x.png)
 
 ##Previous Model
 ###WSABIE
