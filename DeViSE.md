@@ -21,6 +21,7 @@ Imagine this very interesting problem cited here [1] where we look at creating a
 Typical practises include training on a **unlabeled corpora like word2vec on Wikipedia** to **get word representation** and learning a regression function between image features (CNN,SIFT features) and **dimensions of word2vec** and this is then applied to the test classes. 
 
 ##Model
+###Language model pre-training
 
 
 
