@@ -16,15 +16,24 @@ DT- RNN 使用了依赖树(dependency tree) to embed sentences into a vector spa
 
 主要的解决方案是单一模态的数据分别进行学习，最后map into a jointly learned multimodal embedding space.
 
-sentence映射使用idea(Recursive neural network)， our model computes compositional vector representations **inside dependency trees**
+sentence映射使用idea(Recursive neural network)， our model computes compositional vector representations **inside dependency trees**，DT-RNN可以做到捕捉更多的句子的含义。（define meaning in terms of **similarity to a “visual representation”** of the textual description）
+
 
 ##Model(DT- RNN)
+Dependency-Tree Recursive Neural Networks
+DT-RNN是用来学习vector representations for sentences based on their dependency trees
 
-
+**DT-RNN**
+  
+computes compositional(组合的) vector representations for phrases（短语） and sentences of variable length and syntactic type.（不同长度和句法结构的句子）
 
 ##Model Detail
-
+ unsupervised large text corpora to learn seman- tic word representations
 
 
 ##Trick
 
+
+##Previous Model
+constituency tree recursive neural networks (Socher et al., 2011b; Socher et al., 2011a)
+CT-RNN
