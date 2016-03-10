@@ -22,8 +22,11 @@ Typical practises include training on a **unlabeled corpora like word2vec on Wik
 
 ##Model
 ###Language model pre-training
-####Some introduction to language model
 - The skip-gram text modeling architecture introduced by Mikolov et al 
+  
+    efficiently learn semantically-meaningful floating point representations of terms from unannotated text.
+    这个模型学习表示每个term为固定长度的embedding vector，通过预测在文档中邻接的terms。
+    
 - 
 
 
