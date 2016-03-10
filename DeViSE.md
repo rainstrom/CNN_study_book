@@ -26,6 +26,9 @@ Typical practises include training on a **unlabeled corpora like word2vec on Wik
 
 only explored linear mappings from image features to the embedding space, and the available labels were only those provided in the image training set. It could thus not generalize to new classes.
 
+###Socher el al(zero shot learning)
+种类太少，模型不同
+
 ##Model
 
 
