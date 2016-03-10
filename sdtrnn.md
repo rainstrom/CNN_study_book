@@ -36,6 +36,7 @@ focuses more on recognizing actions and agents and has the po- tential to learn 
 
 - we map each word to a d-dimensional vector
   - initialize these word vectors with the unsupervised model of Huang et al. (2012) which can learn single word vector representations from both local and global contexts
+  - 
 
 ##Trick
 
