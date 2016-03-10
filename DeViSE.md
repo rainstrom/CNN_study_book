@@ -57,6 +57,7 @@ IMAGENET WINNING MODEL
     随机化
     - (1) restricting the set of false text terms to possible image labels，只用可能的image label的embedding vector进行训练
     - (2) truncating the sum after the first margin-violating false term was encountered. The ⃗t vectors were constrained to be unit norm, and a fixed margin of 0.1 was used in all experiments3
+      - 不明白。。。
 
 
 ##Model Detail (m-CNN的组成)
