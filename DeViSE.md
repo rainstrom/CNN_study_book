@@ -22,6 +22,7 @@ Typical practises include training on a **unlabeled corpora like word2vec on Wik
 
 ##Model
 ###Language model pre-training
+####Some introduction to language model
 
 
 
