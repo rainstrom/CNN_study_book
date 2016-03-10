@@ -14,6 +14,8 @@ DT- RNN 使用了依赖树(dependency tree) to embed sentences into a vector spa
 
 图片中的物体和物体之间有互相的联系，同样句子中的主体和主体之间也有联系。
 
+主要的解决方案是单一模态的数据分别进行学习，最后map into a jointly learned multimodal embedding space.
+
 ##Model(DT- RNN)
 
 
