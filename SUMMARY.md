@@ -9,7 +9,7 @@
    * [VGG Net](2_vgg_net.md)
    * [BatchNormalization](bn.md)
    * All CNN
-   * Very deep cnn
+   * [Very deep cnn](very_deep_cnn.md)
 * Pattern Recognition
    * [difference between maxlikihood and bayesian methods](1_difference_between_maxlikihood_and_bayesian_method.md)
 * Deva
