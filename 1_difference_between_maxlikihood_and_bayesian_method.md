@@ -16,8 +16,8 @@ Goal is P(w_i|x,D)，x is the data to be classified, D is data.
 - P(w_i)也就是种类的分布情况
 - P(x|w_i,D_i)也就是在D_i数据集中，分析得出每个种类数据x的分布情况。
 
-P(x|D)
-P(x,Θ|D)
+P(x|D)=积分p(x|Θ)p(Θ|D)dΘ
+P(x,Θ|D)=
 
 参数是随机变量，参数的分布模型已经知道P(Θ)（先验概率）。可以假设参数的分布是高斯分布。我们需要求参数的后验概率分布 P(Θ|D)
 
