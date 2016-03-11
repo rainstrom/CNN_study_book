@@ -3,4 +3,8 @@
 
 gate (sigmoid?)
 
+#FitNet
+
+#Residual
+
 
