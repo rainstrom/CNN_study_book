@@ -3,7 +3,7 @@
 ##Bayesian
 通过先验分布，以及类密度条件来做。如果我们确定了一个模型，那么我们知道高斯分布的话有两个参数，然后我们就认为这两个参数是随机变量。
 
-In order to calculate P(w_i|x), but P(x|w_i) is unknown.
+In order to calculate P(w_i|x), but P(x|w_i) is unknown.// P(x|w_i,D_i) is known?
 
 Goal is P(w_i|x,D)，x is the data to be classified, D is data.
 
