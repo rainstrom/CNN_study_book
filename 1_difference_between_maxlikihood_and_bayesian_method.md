@@ -11,7 +11,7 @@ Goal is P(w_i|x,D)，x is the data to be classified, D is data.
 P(μ|D)=
 ![](QQ20160309-0@2x.png)
 
-参数是随机变量，随机变量的分布模型已经知道。
+参数是随机变量，参数的分布模型已经知道。可以假设参数的分布是搞死分布。
 
 ##max likelihood
 主要是模型参数认为是定值，然后求得所观察数据产生的概率最大的情况。
